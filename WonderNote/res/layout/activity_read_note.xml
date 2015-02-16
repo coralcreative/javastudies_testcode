@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="com.application.wondernote.note.ReadNoteActivity" >
+
+    <ImageView
+        android:id="@+id/note_1pageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:columnCount="4"
+        android:rowCount="8" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginRight="15dp"
+            android:layout_row="0"
+            android:text="@string/note_create_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edit_note_create_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnSpan="3"
+            android:layout_row="0"
+            android:textStyle="bold" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            android:layout_marginBottom="2dp"
+            android:layout_row="1"
+            android:background="@drawable/underline" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginRight="15dp"
+            android:layout_row="2"
+            android:text="@string/note_create_category"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/note_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnSpan="3"
+            android:layout_row="2" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            android:layout_marginBottom="2dp"
+            android:layout_row="3"
+            android:background="@drawable/underline" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginRight="15dp"
+            android:layout_row="4"
+            android:text="@string/note_create_createdate"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/note_createdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_column="1"
+            android:layout_row="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginRight="15dp"
+            android:layout_row="4"
+            android:text="@string/note_create_updatedate"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/note_updatedate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="4" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            android:layout_marginBottom="2dp"
+            android:layout_row="5"
+            android:background="@drawable/underline" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginRight="15dp"
+            android:layout_row="6"
+            android:text="@string/note_create_remark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edit_note_remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnSpan="3"
+            android:layout_row="6" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            android:layout_marginBottom="2dp"
+            android:layout_row="7"
+            android:background="@drawable/underline" />
+
+    </GridLayout>
+
+</LinearLayout>

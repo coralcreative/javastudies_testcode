@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_homeBackground">#FF000000</color>
+    <color name="color_homeText">#FFffffff</color>
+    
+    <color name="color_noteBackground">#FFffffff</color>
+    <color name="color_noteText">#FF000000</color>
+
+</resources>

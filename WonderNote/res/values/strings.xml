@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 共通(自動追加) -->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- 共通 -->
+    <string name="app_name">WonderNote</string>
+    <string name="app_version">version 0.1</string>
+    <string name="app_company">Computer Institute of Japan, Ltd.</string>
+    <string name="button_create">新規作成</string>
+    <string name="button_cancel">キャンセル</string>
+    
+    <!-- ホーム画面 -->
+    <string name="button_jumpCreateNote">新しくノートを作成する</string>
+    <string name="button_jumpReadNote">作成したノートを表示する</string>
+    <string name="button_jumpConfigNote">設定</string>
+    
+    <!-- ノート読込画面 -->
+    <string name="note_read_headline">ノート一覧</string>
+    <string name="button_createnote">新規作成</string>
+    <string name="note_read_switch">表示切替</string>
+    
+    <!-- 新規ノート作成画面 -->
+    <string name="note_create_headline">新規ノート作成</string>
+    <string name="note_create_title">タイトル</string>
+    <string name="note_create_category">カテゴリ</string>
+    <string name="note_create_createdate">作成日</string>
+    <string name="note_create_updatedate">更新日</string>
+    <string name="note_create_remark">備考</string>
+    <string name="button_createcategory">カテゴリ</string>
+    
+    <!-- 新規ノートカテゴリ作成画面 -->
+    <string name="note_create_category_headline">カテゴリ追加・編集</string>
+    <string name="note_create_category_list_instruction">現在登録されているカテゴリ</string>
+    <string name="note_create_category_instruction1">カテゴリの追加・カテゴリの名称編集</string>
+    <string name="note_create_category_instruction2">新しくカテゴリを作成する場合は、カテゴリを入力し「追加」をタップしてください</string>
+    <string name="note_create_category_instruction3">既存のカテゴリを変更する場合は、リストから変更したいカテゴリをチェックして、カテゴリを入力し「変更」をタップしてください</string>
+    <string name="note_create_category_instruction4">既存のカテゴリを削除する場合は、リストから削除したいカテゴリをチェックして「削除」をタップしてください</string>
+    <string name="button_add">追加</string>
+    <string name="button_change">編集</string>
+    <string name="button_delete">削除</string>
+    <string name="dialog_addcomplete">登録完了</string>
+    <string name="dialog_changecomplete">編集完了</string>
+    <string name="dialog_deletecomplete">削除完了</string>
+    
+    <!-- ノート画面 -->
+    <string name="note_date">DATE :</string>
+    <string name="note_page">PAGE :</string>
+    <string name="button_save">保存</string>
+    <string name="dialog_savecomplete">保存完了</string>
+
+</resources>

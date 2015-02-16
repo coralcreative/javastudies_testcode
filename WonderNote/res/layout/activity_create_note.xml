@@ -1,0 +1,110 @@
+<LinearLayout
+    android:id="@+id/dialog_createnote"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_marginTop="15dp"
+    android:gravity="top|center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.application.wondernote.note.CreateNoteActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/note_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="@string/note_create_headline"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="38dp" />
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:columnCount="2"
+        android:rowCount="4" >
+
+        <TextView
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="0"
+            android:text="@string/note_create_title"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/edit_note_create_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal|top"
+            android:layout_row="0"
+            android:background="@color/color_noteBackground"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="18dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="1"
+            android:text="@string/note_create_category"
+            android:textSize="25dp" />
+
+        <Spinner
+            android:id="@+id/spinner_note_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal|top"
+            android:layout_row="1"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_columnSpan="2"
+            android:text="@string/note_create_remark"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/edit_note_remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left|fill_vertical"
+            android:layout_row="3"
+            android:background="@color/color_noteBackground"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine" />
+
+    </GridLayout>
+</LinearLayout>

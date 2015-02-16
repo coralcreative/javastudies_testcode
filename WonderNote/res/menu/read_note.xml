@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.application.wondernote.ReadNoteActivity" >
+
+    <item
+        android:id="@+id/button_createnote"
+        android:icon="@drawable/create_note"
+        android:title="@string/button_createnote"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/note_read_switch"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/note_read_switch"/>
+
+</menu>
